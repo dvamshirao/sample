@@ -1,0 +1,49 @@
+1.Speech Recognition Using Linear Predictive Coding and Artificial Neural Network for Controlling Movement of Mobile Robot -Thiang 1 +
+and Suryo Wijoyo 1--(e Linear Predictive
+Coding (LPC) and Artificial Neural Network (ANN))--( Linear prediction coefficients (LPC) technique is not suitable for representing speech because it assumes signal stationary within a given frame and hence not analyze the localized events accurately. Also it is not able to capture the unvoiced and nasalized sounds properly)
+
+2.Ms.Vimala.C and Dr.V.Radha, “Speaker Independent
+Isolated Speech Recognition System for Tamil
+Language using HMM”, in Proceedings International
+Conference on Communication Technology and
+System Design 2011, Procedia Engineering 30 ISSN:
+1877-7058, 13March2012, pp.1097 – 1102.--( Feature extraction using  Mel Frequency Cepstral
+Coefficients (MFCC) and acoustic model, pronunciation dictionary and language model are
+implemented using HMM)--(Performance of the system decreases in the case of using MFCC, and when training and testing environments are different and  In background noise MFCC doesn’t perform precise results and its efficiency could be influenced by the number of filters)
+
+3.Cini Kuriana, Kannan Balakrishnan, “Development &
+evaluation of different acoustic models for Malayalam
+continuous speech recognition”, in Proceedings of
+International Conference on Communication
+Technology and System Design 2011 Published by
+Elsevier Ltd, December 2011, pp.1081-1088.--(HMM for acoustic modeling. The temporal evolution of speech is modeled by the Markov process)--(The number of parameters needed to set up an HMM in this case  is
+huge. For a simple four-state HMM with five continuous
+channels, there would be a total of 50 parameters that
+would need to be evaluated.it asummes that  successive observations are
+independent but its not acually the case always.)
+ 
+4.Messaoud Z B, Hamida A B (2010) CDHMM parameters selection for speaker-independent phonerecognition in continuous speech system. In MELECON 2010-2010 15th IEEE MediterraneanElectrotechnical conference (pp. 253-258). IEEE.--(MFCC for feature extraction and HMM-MLP Hybrid Model Bigram  for classifiction method)--(The VQ that it does not take into account the temporal evolution of signals because all the vectors are mixed up.doing a search with a hidden Markov model is about 10 times slower than using a simple Markov model--for larger HMMs)
+
+5.Fuzzy Support Vector Machines
+for Class Imbalance Learning--(MFCC for feature extraction and SVM  for classifiction method)--(SVMs can also suffer from the problem of class imbalance and - The search direction is not obvious and it tends to have fast and early convergence in mid optimum points)
+
+6.An HMM based speaker-independent continuous speech recognitionsystem with experiments on the TIMIT DATABASE. In acoustics, speech, and signal processing, IEEEinternational conference on (pp. 333-336). IEEE computer society--(The features method as MFCC, cepstral mean ,variance normalization (CMVN) and i-vectors. Deepneural networks (DNN) are used to perform the task of classification.)
+
+7.Study of deep learning and CMU sphinx in automatic speech recognition--( MFCC to extract features and uses anHMM-based model to perform the classification task)--(Cannot run large vocabulary for speech recognition and hard to train for other languages with poor accuracy)
+
+8.Two-Pass End-to-End Speech Recognition--(MFCC for feature extraction and RNN based encoder-decoder model for classification method)--(However, this model still lags behind a
+large state-of-the-art conventional model in quality,Variation in the rate of speaking, pitch, and volume might affect the model,In background noise MFCC does not give accurate results.
+)
+
+9.Quartznet: Deep Automatic Speech Recognition with 1D Time-Channel Separable Convolutions--(MFCC for feature extraction and CNN based model withCTC loss for classification method)
+
+10.A Hybrid model of Neural Network Approach
+for Speaker independent Word Recognition --( linear predictivecoding(LPC) for feature extraction method and  radial basis function(RBF) and pattern matching algorithm hybrid model for classification method)-()
+
+
+
+
+
+
+10.First the input speech goes through the preprocessing methods .it means preemphasis,normalization and banding. pre-emphasis refers to a system process designed to increase (within a frequency band) the magnitude of some (usually higher) frequencies with respect to the magnitude of other (usually lower) frequencies in order to improve the overall signal-to-noise ratio.Next is the feature extraction step where we use LFC(Linear feature coefficients) for feature extraction.Linear prediction coefficients (LPC) imitates the human vocal tract [16] and gives robust speech feature. LFC evaluates the speech signal by approximating the formants, getting rid of its effects from the speech signal and estimate the concentration and frequency of the left behind residue.And than it goes through classification step where we classify frames using radial basis function(RBF).out put unique vector is obtained for pattern Matching using Brute Force Algorithm which results in recognized word output.
+

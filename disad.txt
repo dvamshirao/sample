@@ -1,0 +1,48 @@
+Disadvantages
+--------------------
+1.- These techniques do not give the impression of parallel computing of quantum.  - In background noise MFCC doesn’t perform precise results and its efficiency could be influenced by the number of filters 
+
+2. This type of method of recognition module does not take under consideration the inherent speech variability.   - Choosing the appropriate reference template is a difficult task. -which is why, the majority of modern systems of ASR replace this method (DTW) by a stochastic method like HMM.
+
+3.The VQ that it does not take into account the temporal evolution of signals because all the vectors are mixed up.
+
+4.The search direction is not obvious and it tends to have fast and early convergence in mid optimum points.  -This technique cannot accommodate with the problems of non-coordinate system.
+
+5.Performance of the system decreases in the case of using GMM, and when training and testing environments are different.
+
+6.The VQ that it does not take into account the temporal evolution of signals because all the vectors are mixed up.
+
+7.- The search direction is not obvious and tendency to a fast and premature convergence in mid optimum points. -The VQ that it does not take into account the temporal evolution of signals because all the vectors are mixed up.
+
+8.- Background noise MFCC does not give accurate results
+
+9.-   Advanced adaptive filter is required for removing white noise especially for home appliances. - Deep Learning require a large amount of data and powerful computing resources
+
+10.-This approach cannot work out the problems of non-coordinate system. - In background noise MFCC does not give accurate results.
+
+
+
+Advantages
+----------------
+
+1.These  techniques  combine  parallel,  fast QNN Computation with  an ability  of IPSO’ global  optimizing,  QNN’  computation quantity of training process is small.  - The most significant benefit of the IPSO-QNN is its fast recognition. -  IPSO  considers  precocious  convergence phenomenon,  when  it  is  utilized  for training  QNN,  the  model  predicts  more accurately  via  fully  exploiting  the capability of global optimization of PSO. -  MFCC  captures  main  characteristics  of phones in speech with low complexity.
+
+2.-  Combining  these  techniques  led  to increase  speed  of  recognition  for  the isolated  word,  reduced  storing  space  for the  reference  template  and  higher predictive accuracy. -  DTW  algorithm  is  easy  and  common hardware  is  required,  so  it  is  a  more mature voice recognition algorithm. - DTW algorithm is to  find an optimal time warping  function  which  minimizes  the total amount of the cumulative distortion. -  WFCC  have  good  recognition performance and noise immunity.
+
+3.- These techniques provided higher amount of correlation between sub band outputs.  - Improve the efficiency of both MFCC and inverted MFCC by GF.  -  Using  VQ  with  MFCC  and  Inverted  are capable  of  detecting  the  precise  speaker from  considerably  shorter  samples  of speech,  which is  why,  it is  well applicable in real-time applications. - The VQ is high accurate, simple, used less memory, less preparing of test data. 
+
+4.- The Results have a good precision, despite the relative randomness of the society of speakers. - Use of PSO method resulted in: Simple implementation, easy parallelization for concurrent processing, a rather small number of algorithm parameters and highly sufficient global search. - PSO can be a sufficient tool of optimization for non-linear continuous optimizing issues and combinatorial problems of optimization.
+
+5.-  The  Bayes  classification  represents  an approach of supervised learning and also a statistical classification approach. -  Bayes  classification  can  provide  a  good viewpoint  for  the  understanding  and evaluation  of  several  learning  algorithms. It  obtains  explicit  possibilities  for hypothesis  and  it  has  robustness  against noise in the input data.
+
+6.-VQ is a highly sufficient spectral information representation in speech signals by vector mapping (feature extraction of input signal) from large vector space to a finite number of areas in the space which is referred to as clusters. - combining MFCC and Distance Minimum algorithm produced the optimal Performance and precise results. - HMM is capable of identifying the most widely utilized isolated word
+
+7.- Combining between IPSO and  HMM gives high accuracy compare with  NN,HMM and PSO  - IP-HMM is helpful in speech identification that  is  achieved  via  efficiently  finding optimum  or  near  optimum  solutions  in wide  search  spaces  of  code  vector  from code-book.  - IPSO achieved global optimization ability
+
+8.- The VQ has greatly helpful to reduce the amount of computation and storage. - The VQ is high accurate, simple and less preparing of test data.
+
+9.- Deep Learning use small memory space, and improves the rate of identification. - Adaptive MFCC eliminated noise in every band with no damage to the audio via eliminating the small size noise via advanced smoothing in
+
+10.-The advantage of APSO: They simplify the computation and present good results of recognition along with reduction in time utilization. 
+
+11.Speaker recognition system is reliable.
